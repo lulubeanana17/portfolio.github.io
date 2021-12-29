@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio.github.io/static/css/main.ddc9851a.css",
+    "main.js": "/portfolio.github.io/static/js/main.581f424b.js",
+    "static/media/coin.png": "/portfolio.github.io/static/media/coin.0e1a39698f411725b751.png",
+    "static/media/to-do-list-apps.png": "/portfolio.github.io/static/media/to-do-list-apps.f795ae3e51c979fad76e.png",
+    "static/media/apple.png": "/portfolio.github.io/static/media/apple.f74de63100ac134e4bb2.png",
+    "index.html": "/portfolio.github.io/index.html",
+    "main.ddc9851a.css.map": "/portfolio.github.io/static/css/main.ddc9851a.css.map",
+    "main.581f424b.js.map": "/portfolio.github.io/static/js/main.581f424b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddc9851a.css",
+    "static/js/main.581f424b.js"
+  ]
+}
