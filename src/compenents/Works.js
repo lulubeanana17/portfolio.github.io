@@ -22,15 +22,33 @@ function Works() {
           ).style.transform = `translate(${translateMeter - 50}vh)`;
           translateMeter = translateMeter - 50;
         }
+      } else {
+        if (translateMeter === -150) {
+          return;
+        } else {
+          document.querySelector(
+            ".projectsContainer"
+          ).style.transform = `translate(${translateMeter - 30}vh)`;
+          translateMeter = translateMeter - 30;
+        }
       }
     };
     const moveLeft = () => {
+      if (window.screen.availWidth > 430) {
         if(translateMeter === 0) {
             return;
         } else {
             document.querySelector(".projectsContainer").style.transform = `translate(${translateMeter + 50}vh)`;
             translateMeter = translateMeter + 50;
         }
+      } else {
+        if(translateMeter === 0) {
+          return;
+      } else {
+          document.querySelector(".projectsContainer").style.transform = `translate(${translateMeter + 30}vh)`;
+          translateMeter = translateMeter + 30;
+      }
+      }
     };
 
     return (
