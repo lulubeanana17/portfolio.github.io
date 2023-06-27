@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Raleway&display=swap');
+
+.CmainContainer {
+    height: 85vh;
+    width: 100%;
+    background-color: #DCDCDC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CsubContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CmainTitle {
+    margin: 0;
+    font-size: 30px;
+    padding: 1em 0 1em 0;
+    font-family: 'Josefin Sans';
+}
+.CexplanationSection {
+    overflow: hidden;
+    width: 100vh;
+    border-radius: 1.5em;
+}
+.CexplanationContainer {
+    display: flex;
+    width: 300vh;
+    transition: all .5s;
+}
+.CexplanationBox1, .CexplanationBox2, .CexplanationBox3 {
+    height: 60vh;
+    width: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    font-family: 'Raleway';
+}
+.CexplanationBox1 {
+    background-image: url("../media/datacomp.JPG");
+}
+.CexplanationBox2 {
+    background-image: url("../media/heritage.jpg");
+}
+.CexplanationBox3 {
+    background-image: url("../media/soHotel.jpg");
+}
+.CboxCover {
+    height: 60vh;
+    width: 100vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    opacity: 0;
+    transition: .3s;
+    padding: 1em;
+}
+.CboxCover:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#CfontWhite {
+    font-size: 30px;
+    color: #fcfcfc;
+}
+#CfontGrey {
+    font-size: 20px;
+    color: #e4e0e0;
+    margin: 0;
+    padding-right: 1em;
+}
+.moveLeft, .moveRight {
+    color: #000000;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 3em;
+}
