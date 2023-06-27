@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&family=Open+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;300;400&family=Zen+Kaku+Gothic+New&display=swap');
+
+.AppContainer {
+    display: flex;
+    flex-direction: column;
+}

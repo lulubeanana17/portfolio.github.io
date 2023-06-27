@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Raleway:wght@400;500;600;700&display=swap');
+
+.AmainContainer, .AfloatContainer, .AtitleContainer, .Abrief, .AteamMembers, .Aroles {
+    display: flex;
+    flex-direction: column;
+} 
+.AinfoContainer, .AteamContainer, .Afiles {
+    display: flex;
+    justify-content: space-between;
+}
+.AmainContainer {
+    width: 100%;
+    height: auto;
+    background-color: #DCDCDC;
+    font-family: 'Raleway';
+    align-items: center;
+}
+.AfloatContainer {
+    width: 125vh;
+    justify-content: left;
+}
+.AtitleContainer {
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+}
+.Ayear, .AshortDesc, .Amember, .Arole {
+    color: #717171;
+    font-weight: 500;
+    font-size: 15px;
+}
+.AbriefName, .AteamName, .AroleName, .AwireframeName, .AexcelName {
+    font-weight: 600;
+    padding-bottom: 1em;
+    font-size: 15px;
+}
+.Ayear {
+    font-size: 15px;
+    padding-bottom: .3em;
+}
+.AprojectName {
+    font-size: 35px;
+    font-weight: 700;
+}
+.AinfoContainer {
+    padding-bottom: 2em;
+}
+.Abrief, .AteamMembers, .Aroles {
+    padding-right: 2em;
+}
+.AshortDesc p {
+    margin: 0;
+    width: 70vh;
+}
+.Amember ul, .Arole ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.AwireframeDesign embed {
+    height: 115vh;
+}
+.AexcelDownload button {
+    width: 100%;
+    border-style: none;
+    border-radius: 1em;
+    cursor: pointer;
+    height: 30px;
+    background-color: #717171;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.AexcelDownload button:hover {
+    background-color: #464646;
+}
+

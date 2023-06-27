@@ -1,6 +1,6 @@
 .workContainer {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-color: #DCDCDC;
     display: flex;
     flex-direction: column;
@@ -26,11 +26,11 @@
 .projectsContainerCover {
     margin: 3em 5em;
     overflow: hidden;
-    width: 150vh;
+    width: 100vh;
     height: 50vh;
 }
 .projectsContainer {
-    width: 300vh;
+    width: 600vh;
     height: 50vh;
     display: flex;
     transition: all .5s;
@@ -60,9 +60,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 45vh;
+    width: 100vh;
     height: 45vh;
-    margin: 2.5vh;
     border-radius: 1.5em;
     box-shadow: 0 2.8px 2.2px rgba(255, 255, 255, 0.034),
     0 6.7px 5.3px rgba(255, 255, 255, 0.048),
