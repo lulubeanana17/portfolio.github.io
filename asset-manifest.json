@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.ddc9851a.css",
-    "main.js": "/portfolio.github.io/static/js/main.e3edfbc4.js",
-    "static/media/coin.png": "/portfolio.github.io/static/media/coin.0e1a39698f411725b751.png",
-    "static/media/to-do-list-apps.png": "/portfolio.github.io/static/media/to-do-list-apps.f795ae3e51c979fad76e.png",
+    "main.css": "/portfolio.github.io/static/css/main.1efd81b0.css",
+    "main.js": "/portfolio.github.io/static/js/main.27416335.js",
+    "static/media/AgileDesign.pdf": "/portfolio.github.io/static/media/AgileDesign.5dc806f3ebce1014323a.pdf",
+    "static/media/Everdose.xlsx": "/portfolio.github.io/static/media/Everdose.8d1ce52e1d5309b7bc41.xlsx",
+    "static/media/datacomp.JPG": "/portfolio.github.io/static/media/datacomp.768d6122e0f225cc68d4.JPG",
+    "static/media/soHotel.jpg": "/portfolio.github.io/static/media/soHotel.c31b0c9391ca16807189.jpg",
+    "static/media/heritage.jpg": "/portfolio.github.io/static/media/heritage.439778b6e12f7ca6ecad.jpg",
+    "static/media/logoBlack.png": "/portfolio.github.io/static/media/logoBlack.9eb8b9eb50a376bd07cb.png",
     "static/media/apple.png": "/portfolio.github.io/static/media/apple.f74de63100ac134e4bb2.png",
     "index.html": "/portfolio.github.io/index.html",
-    "main.ddc9851a.css.map": "/portfolio.github.io/static/css/main.ddc9851a.css.map",
-    "main.e3edfbc4.js.map": "/portfolio.github.io/static/js/main.e3edfbc4.js.map"
+    "main.1efd81b0.css.map": "/portfolio.github.io/static/css/main.1efd81b0.css.map",
+    "main.27416335.js.map": "/portfolio.github.io/static/js/main.27416335.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc9851a.css",
-    "static/js/main.e3edfbc4.js"
+    "static/css/main.1efd81b0.css",
+    "static/js/main.27416335.js"
   ]
 }
